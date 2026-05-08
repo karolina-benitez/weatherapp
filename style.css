@@ -1,0 +1,17 @@
+body {
+  display: block;
+  background: green;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  background-image: url('https://images.unsplash.com/photo-1587990754909-18ae9d92c8e8?q=80&w=2148&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+}
+
+#content {
+  margin: 100px;
+  padding: 50px 150px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.65); /* 50% transparent white */
+}
+#tempUnitButton {box-shadow:0 8px 16px 0 rgba(0,0,0,0.6)}
+#tempUnitButton:hover {box-shadow:0 8px 16px 0 rgba(0,0,0,0.9)}
